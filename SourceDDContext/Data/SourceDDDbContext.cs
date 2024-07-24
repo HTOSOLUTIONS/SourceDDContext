@@ -5,13 +5,13 @@ using SourceDDContext.Models;
 
 namespace SourceDDContext.Data;
 
-public partial class SourceDDContext : DbContext
+public partial class SourceDDDbContext : DbContext
 {
-    public SourceDDContext()
+    public SourceDDDbContext()
     {
     }
 
-    public SourceDDContext(DbContextOptions<SourceDDContext> options)
+    public SourceDDDbContext(DbContextOptions<SourceDDDbContext> options)
         : base(options)
     {
     }
