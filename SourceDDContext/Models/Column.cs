@@ -63,5 +63,11 @@ public partial class Column
 
     public bool? NeedsMigration { get; set; }
 
+    public bool? NeedsFollowUp { get; set; }
+
+    public string? Notes { get; set; }
+
+
+
     public virtual Table Table { get; set; } = null!;
 }
