@@ -67,7 +67,7 @@ public partial class Column
 
     public string? Notes { get; set; }
 
-
+    public virtual ICollection<ColumnTarget> ColumnTargets { get; set; } = new List<ColumnTarget>();
 
     public virtual Table Table { get; set; } = null!;
 }
