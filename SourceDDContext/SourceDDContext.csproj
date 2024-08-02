@@ -6,7 +6,8 @@
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>Source DD for Migration Mapping</Title>
-    <Version>1.2.0</Version>
+    <Version>1.3.0</Version>
+    <Description>Added the ColumnTarget model.</Description>
   </PropertyGroup>
 
   <ItemGroup>
